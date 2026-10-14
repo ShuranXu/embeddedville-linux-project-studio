@@ -1,0 +1,12 @@
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+build/
+out/
+__pycache__/
+*.pyc
+*.o
+*.ko
+*.zip
