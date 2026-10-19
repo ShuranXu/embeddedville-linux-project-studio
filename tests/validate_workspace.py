@@ -8,7 +8,15 @@ DENIED_PARTS = {"evaluator", "private-evaluator", "solutions", "staff", "authori
 SECRET_PATTERNS = [re.compile(rb"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----"), re.compile(rb"(?i)(?:api[_-]?key|token|password)\s*[:=]\s*['\"][^'\"]{12,}")]
 cfg = json.loads((ROOT / ".embeddedville-workspace.json").read_text())
 assert cfg["repository"] == "ShuranXu/embeddedville-linux-project-studio"
-assert cfg["starterVersion"] == "2026.10-qemu-workspace-v1"
+assert cfg["starterVersion"] == "2026.10-qemu-workspace-v2"
+assert cfg["authoritativeTarget"] == "qemu"
+activities = cfg["activities"]
+assert [key for key, value in activities.items() if value["kind"] == "practice"] == [
+    "target-boot-triage", "input-faults-cleanup", "performance-overflow-investigation"
+]
+assert [key for key, value in activities.items() if value["kind"] == "project"] == [
+    "module-autoload", "operator-buttons", "sensor-controller", "sdk-debug-tool", "fibonacci-profile"
+]
 for path in ROOT.rglob("*"):
     if ".git" in path.parts or not path.is_file(): continue
     lowered = {part.lower() for part in path.relative_to(ROOT).parts}
