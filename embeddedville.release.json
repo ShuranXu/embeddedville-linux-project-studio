@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "project": {"id": "embeddedville-linux-project-studio", "kind": "course-source", "courseIds": ["projects"]},
   "repository": {"expectedRemote": "https://github.com/ShuranXu/embeddedville-linux-project-studio.git", "defaultBranch": "main", "immutableReleaseTagsRequired": true},
-  "source": {"protectedPaths": ["projects", "scripts", "lab", ".embeddedville-workspace.json", ".devcontainer"], "baselineTag": "2026.10-qemu-workspace-v1"},
+  "source": {"protectedPaths": ["projects", "scripts", "lab", "labs", ".embeddedville-workspace.json", ".devcontainer"], "baselineTag": "2026.10-qemu-workspace-v2"},
   "validation": {"commands": ["python3 tests/validate_workspace.py", "python3 -m unittest discover -s tests -v", "./scripts/readiness.sh"]},
   "deployment": {"managedBy": "embeddedville-learn-v2", "workflow": null, "productionRef": null}
 }

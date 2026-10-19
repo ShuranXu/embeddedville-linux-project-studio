@@ -1,5 +1,7 @@
 # EmbeddedVille Linux Project Studio
 
+This v2 workspace contains three formative practice labs and five required portfolio projects. QEMU is the authoritative target for all checks and submissions; Raspberry Pi work is optional. Practice attempts unlock only their matching protected solution and never count toward private completion.
+
 Public, course-scoped starter workspace for the three assessed Embedded Linux Project Studio projects. It contains learner starter code and public checks only. Private evaluator scenarios, reference solutions, licensed authoring sources, staff notes, and credentials are intentionally absent.
 
 ## Start in Codespaces
