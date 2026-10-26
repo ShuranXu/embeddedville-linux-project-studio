@@ -1,4 +1,6 @@
-# EmbeddedVille Linux Project Studio
+# EmbeddedVille Applied Linux and Project Studio
+
+The `applied/` directory supports the build-system-neutral **Applied Embedded Linux Systems** course. It uses the `2026.10-applied-linux-v1` contract, an explicit Arm cross-build boundary, and QEMU-authoritative evidence for four labs plus the small applied capstone. Start at [`applied/README.md`](applied/README.md).
 
 This v2 workspace contains three formative practice labs and five required portfolio projects. QEMU is the authoritative target for all checks and submissions; Raspberry Pi work is optional. Practice attempts unlock only their matching protected solution and never count toward private completion.
 

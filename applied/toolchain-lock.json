@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "2026.10-applied-linux-v1",
+  "target": "qemuarm64",
+  "architecture": "aarch64",
+  "hostDistribution": "Ubuntu 24.04 LTS",
+  "crossCompilerPackage": "gcc-aarch64-linux-gnu",
+  "kernelBuildTreePolicy": "must-match-running-qemu-kernel",
+  "acceptance": "QEMU authoritative; Raspberry Pi optional"
+}

@@ -1,0 +1,1 @@
+{"courseId":"advanced","contractVersion":"2026.10-applied-linux-v1","itemId":"profile-optimize","target":"qemuarm64","observations":["REPLACE with comparable baseline, dominant cost, measured improvement, and overflow behavior."],"artifacts":["notes.md"]}

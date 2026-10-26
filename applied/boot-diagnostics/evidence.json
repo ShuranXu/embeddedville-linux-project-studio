@@ -1,0 +1,1 @@
+{"courseId":"advanced","contractVersion":"2026.10-applied-linux-v1","itemId":"boot-diagnostics","target":"qemuarm64","observations":["REPLACE with the last successful handoff, failing boundary, recovery, and remaining limitation."],"artifacts":["notes.md"]}
