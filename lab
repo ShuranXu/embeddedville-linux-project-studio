@@ -154,7 +154,7 @@ def submit(cfg: dict, activity_id: str) -> None:
             "courseId": selected["courseId"],
             "activityId": activity_id,
             "repository": cfg["repository"],
-            "starterVersion": cfg["starterVersion"],
+            "starterVersion": selected.get("starterVersion", cfg["starterVersion"]),
             "baseRef": base_ref,
             "headCommit": head,
             "dirty": dirty,
